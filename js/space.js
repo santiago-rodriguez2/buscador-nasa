@@ -1,7 +1,6 @@
 const container = document.querySelector('#contenedor');
 const input = document.querySelector('#inputBuscar');
-const button = document.querySelector('#btnBuscar');
-
+const btn = document.querySelector('#btnBuscar');
 btn.addEventListener('click', () => {
   const termino = input.value.trim();
   if (termino === '') {
